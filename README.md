@@ -1,4 +1,4 @@
-# organikpi-com
+# OrganiKPI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-organikpi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://organikpi.com/
+OrganiKPI is a one‑person practice delivering AI‑first marketing intelligence. It measures how large language models like ChatGPT, Google AI Mode, and Perplexity cite information, tracks SEO and GEO data, and publishes open‑source tools for SEO and AI search. The site offers tools, blogs, and research on AI‑driven search, with over 150k AI citations analyzed and dozens of open‑source trackers.
+
+**Areas:** Marketing Intelligence · SEO · Open‑Source Tools
+
+## OrganiKPI on APIs.io
+
+Everything profiled for OrganiKPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/organikpi-com/](https://apis.io/providers/organikpi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [OrganiKPI AI Search API](https://apis.io/apis/organikpi-com/organikpi-ai-search-api/) — Pay-per-call API for AI search visibility.
+- [OrganiKPI AI Search API API](https://apis.io/apis/organikpi-com/organikpi-ai-search-api-api/) — Pay-per-call API for AI search visibility. Payment is x402 in USDC on Base: call the endpoint, receive HTTP 402 with payment requirements, pay, retry with…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Audit](https://apis.io/schemas/organikpi-com/organikpi-com-audit/)
+- [CitationsRequest](https://apis.io/schemas/organikpi-com/organikpi-com-citations-request/)
+- [JobResult](https://apis.io/schemas/organikpi-com/organikpi-com-job-result/)
+- [JobStarted](https://apis.io/schemas/organikpi-com/organikpi-com-job-started/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Organikpi Com Context](https://apis.io/jsonld/organikpi-com/organikpi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [OrganiKPI API Rules](https://apis.io/rules/organikpi-com/organikpi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [OrganiKPI Domain Security](https://apis.io/security/organikpi-com/organikpi-com-domain-security/)
+- [OrganiKPI Vulnerability Disclosure](https://apis.io/security/organikpi-com/organikpi-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://organikpi.com/)
+- [Documentation](https://api.organikpi.com/docs)
+- [API reference](https://api.organikpi.com/openapi.json)
+- [Blog](https://organikpi.com/blog/)
+- [Privacy policy](https://organikpi.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 36.6** — thin · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 51.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 8.5 |
+
+**Agent readiness 23.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/organikpi-com/](https://apis.io/providers/organikpi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OrganiKPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/organikpi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
